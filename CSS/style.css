@@ -1,0 +1,102 @@
+body, html {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.bg {
+    background-image:linear-gradient( 115deg, rgba(83, 83, 166, 0.8), rgba(27, 27, 50, 0.8) ),
+    url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+h1, p {
+    margin: auto;
+    margin-bottom: 0.4rem;
+    text-align: center;
+    color: #f3f3f3;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+form {
+    margin-top: 30px;
+    background-color: rgba(27, 27, 50, 0.8);
+    color: #f3f3f3;
+    border-radius: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+fieldset {
+    border: none;
+    box-sizing: border-box;
+}
+  
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input[placeholder] {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #c7c7c7;
+}
+
+input,
+textarea,
+select {
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    padding: 0.5rem 0;
+}
+
+input, textarea {
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    color: rgb(27, 27, 50);
+}
+  
+.input-radio, .input-checkbox {
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    max-width: 18px;
+}
+
+.legend {
+    padding-top: 20px;
+}
+
+input[type=submit] {
+    display: block;
+    width: 40%;
+    margin: 1em auto;
+    font-size: 1.2rem;
+    background-color: #37af65;
+    color: #f3f3f3;
+    border-color: white;
+    cursor: pointer;
+}
