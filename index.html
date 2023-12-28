@@ -21,7 +21,7 @@
             </fieldset>
             <fieldset>
                 <label for="referrer">How did you hear about us?
-                    <select name="dropdown" id="dropdown">
+                    <select name="dropdown" id="dropdown" required>
                         <option value="">(select one)</option>
                         <option value="1">freeCodeCamp News</option>
                         <option value="2">freeCodeCamp YouTube Channel</option>
@@ -30,23 +30,23 @@
             </fieldset>
             <fieldset>
                 <legend class="legend">Would you recommend this Form to a friend?</legend>
-                <label for="definitely-recommend"><input id="definitely-recommend" type="radio" name="user-recommend" class="input-radio" value="definitely" checked /> Definitely</label>
-                <label for="maybe-recommend"><input id="maybe-recommend" type="radio" name="user-recommend" class="input-radio" value="maybe" /> Maybe</label>
-                <label for="not sure-recommend"><input id="not sure-recommend" type="radio" name="user-recommend" class="input-radio" value="not sure" /> Not sure</label>
+                <label for="definitely-recommend"><input id="definitely-recommend" type="radio" name="user-recommend" class="input-radio" value="definitely" required/> Definitely</label>
+                <label for="maybe-recommend"><input id="maybe-recommend" type="radio" name="user-recommend" class="input-radio" value="maybe" required/> Maybe</label>
+                <label for="not sure-recommend"><input id="not sure-recommend" type="radio" name="user-recommend" class="input-radio" value="not sure" required/> Not sure</label>
             </fieldset>
             <fieldset>
                 <legend class="legend">What would you like to see improved?</legend>
                 <label for="terms-and-conditions">
-                    <input class="input-checkbox" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="Checkbox 1"/> Checkbox 1
+                    <input class="input-checkbox" id="terms-and-conditions" type="checkbox" name="Checkbox 1" required/> Checkbox 1
                 </label>
                 <label for="terms-and-conditions">
-                    <input class="input-checkbox" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="Checkbox 1"/> Checkbox 2
+                    <input class="input-checkbox" id="terms-and-conditions" type="checkbox" name="Checkbox 2" /> Checkbox 2
                 </label>
                 <label for="terms-and-conditions">
-                    <input class="input-checkbox" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="Checkbox 1"/> Checkbox 3
+                    <input class="input-checkbox" id="terms-and-conditions" type="checkbox" name="Checkbox 3" /> Checkbox 3
                 </label>
                 <label for="terms-and-conditions">
-                    <input class="input-checkbox" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="Checkbox 1"/> Checkbox 4
+                    <input class="input-checkbox" id="terms-and-conditions" type="checkbox" name="Checkbox 4" /> Checkbox 4
                 </label>
             </fieldset>
             <fieldset>
